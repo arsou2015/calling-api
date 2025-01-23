@@ -18,6 +18,7 @@ The base URL for accessing the API is https://XXXXXXXXXXXXXXX.
 - **Request Body:**
   - startDate: Start date of the range (DD/MM/YYYY)
   - endDate: End date of the range (DD/MM/YYYY)
+  - account: acount number here ex. (41110002)
 - **Response:**
 
   - Status 200: Returns an array of orders with details like order ID, date, pricing breakdown, and total amounts.
