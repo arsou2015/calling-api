@@ -16,9 +16,11 @@ The base URL for accessing the API is https://XXXXXXXXXXXXXXX.
 - **Method:** POST
 - **Description:** Fetches orders data based on specified date range.
 - **Request Body:**
-  - startDate: Start date of the range (DD/MM/YYYY)
-  - endDate: End date of the range (DD/MM/YYYY)
-  - account: acount number here ex. (41110002)
+
+  - startDate: Start date of the range (format: DD/MM/YYYY)
+  - endDate: End date of the range (format: DD/MM/YYYY)
+  - account: acount number here (e.g: 41110002)
+
 - **Response:**
 
   - Status 200: Returns an array of orders with details like order ID, date, pricing breakdown, and total amounts.
